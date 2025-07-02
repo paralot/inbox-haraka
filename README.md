@@ -13,8 +13,9 @@ git rebase v?.?.?
 git checkout main
 git rebase haraka-upstream
 
-# Use `i` as a tag name convention to prevent release conflicts
-git tag i?.?.? 
+# Use bump.sh to bump and push a new release 
+chmod +x bump.sh
+./bump.sh
 ```
 
 ### Installing

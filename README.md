@@ -1,4 +1,4 @@
-## Inbox Haraka - Inbound SMPT Server based on Haraka (Like a fork) 
+## Inbox Haraka - Inbound SMPT Server, fork of Haraka 
 
 ### Workflow
 ```bash

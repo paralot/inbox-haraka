@@ -1,16 +1,20 @@
 ## Inbox Haraka - Inbound SMPT Server based on Haraka (Like a fork) 
 
-### Get upstream
+### Workflow
 ```bash
-# Fetch updates from upstream
-git fetch upstream
+# Get all tags from upstream 
+git fetch upstream --tags
 
-# Merge updates into your main branch
+# haraka-upstream is a represenation of the last upstream release  
+git checkout haraka-upstream
+git rebase v?.?.?
+
+# Rebase changes into main
 git checkout main
-git merge upstream/main
+git rebase haraka-upstream
 
-# Push updates to your private repo
-git push origin main
+# Use `i` as a tag name convention to prevent release conflicts
+git tag i?.?.? 
 ```
 
 ![Tests](https://github.com/haraka/Haraka/actions/workflows/ci.yml/badge.svg)

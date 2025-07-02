@@ -20,10 +20,10 @@ git tag i?.?.?
 ### Installing
 ```bash
 # SSH
-npm install -g git@github.com:paralot/inbox-haraka.git#i0.1.0
+npm install -g git@github.com:paralot/inbox-haraka.git#i?.?.?
 
 # Http
-npm install -g git+https://github.com/paralot/inbox-haraka.git#i0.1.0
+npm install -g git+https://github.com/paralot/inbox-haraka.git#i?.?.?
 ```
 
 ![Tests](https://github.com/haraka/Haraka/actions/workflows/ci.yml/badge.svg)

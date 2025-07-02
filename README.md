@@ -17,6 +17,15 @@ git rebase haraka-upstream
 git tag i?.?.? 
 ```
 
+### Installing
+```bash
+# SSH
+npm install -g git@github.com:paralot/inbox-haraka.git#v0.1.0
+
+# Http
+npm install -g git+https://github.com/paralot/inbox-haraka.git#v0.1.0
+```
+
 ![Tests](https://github.com/haraka/Haraka/actions/workflows/ci.yml/badge.svg)
 [![Coverage Status][cov-img]][cov-url]
 

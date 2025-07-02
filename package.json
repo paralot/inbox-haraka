@@ -1,19 +1,12 @@
 {
-  "author": "Matt Sergeant <helpme@gmail.com> (http://baudehlo.com/)",
-  "name": "Haraka",
-  "license": "MIT",
-  "description": "An SMTP Server project.",
-  "keywords": [
-    "haraka",
-    "smtp",
-    "server",
-    "email"
-  ],
+  "author": "Paralot",
+  "name": "Inbox-Haraka",
+  "license": "UNLICENSED",
+  "description": "Inbound SMTP Server",
   "version": "3.1.1",
-  "homepage": "http://haraka.github.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/haraka/Haraka.git"
+    "url": "git://github.com/paralot/inbox-haraka.git"
   },
   "main": "haraka.js",
   "engines": {
@@ -88,10 +81,6 @@
     "mocha": "^11.1.0",
     "mock-require": "^3.0.3",
     "nodemailer": "^6.10.0"
-  },
-  "bugs": {
-    "mail": "haraka.mail@gmail.com",
-    "url": "https://github.com/haraka/Haraka/issues"
   },
   "bin": {
     "haraka": "./bin/haraka",

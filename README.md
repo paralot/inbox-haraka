@@ -1,4 +1,17 @@
-## Haraka - a Node.js Mail Server
+## Inbox Haraka - Inbound SMPT Server based on Haraka (Like a fork) 
+
+### Get upstream
+```
+# Fetch updates from upstream
+git fetch upstream
+
+# Merge updates into your main branch
+git checkout main
+git merge upstream/main
+
+# Push updates to your private repo
+git push origin main
+```
 
 ![Tests](https://github.com/haraka/Haraka/actions/workflows/ci.yml/badge.svg)
 [![Coverage Status][cov-img]][cov-url]

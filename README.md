@@ -1,7 +1,7 @@
 ## Inbox Haraka - Inbound SMPT Server based on Haraka (Like a fork) 
 
 ### Get upstream
-```
+```bash
 # Fetch updates from upstream
 git fetch upstream
 
